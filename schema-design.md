@@ -7,17 +7,21 @@
 - name: varchar(100), Not Null
 - email: varchar(150), Not Null, Unique
 - phone_number: varchar(20)
+- username: varchar(100), Not Null, Unique
+- password: varchar(100), Not Null
 
 ### Table: doctors
 - id : INT, Primary Key, Auto Increment
 - name: varchar(100), Not Null
 - email: varchar(150), Not Null, Unique
 - phone_number: varchar(20)
+- username: varchar(100), Not Null, Unique
+- password: varchar(100), Not Null
 
 ### Table: admin
 - id : INT, Primary Key, Auto Increment
-- name: varchar(100), Not Null
-- email: varchar(150), Not Null, Unique
+- username: varchar(100), Not Null, Unique
+- password: varchar(100), Not Null
 
 ### Table: appointments
 - id: INT, Primary Key, Auto Increment
